@@ -137,7 +137,7 @@ def pertanyaan_4():
 def main():
     st.title("Bike Sharing")
     st.sidebar.title("Bike Sharing Dashboard")
-    st.sidebar.image('bicycle.png')
+    st.sidebar.image('https://raw.githubusercontent.com/tenma33/submission/main/dashboard/bicycle.png')
     menu_options = ["Pertanyaan 1", "Pertanyaan 2", "Pertanyaan 3", "Pertanyaan 4"]
     selected_menu = st.sidebar.selectbox("Pilih Pertanyaan", menu_options)
 
