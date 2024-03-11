@@ -1,7 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
 import streamlit as st
 
 data_bike_day = pd.read_csv('bike-sharing-data/day_clean.csv')
