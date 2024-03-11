@@ -74,11 +74,11 @@ def pertanyaan_2():
     st.write('2. Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist: 8.362 kali penyewaan')
     st.write('3. Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds: 4639 kali penyewaan')
     st.write('4. Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog: 0 kali penyewaan')
-    st.write('Cuaca memberikan pengaruh yang signifikan terhadap penyewaan sepeda, dimana penyewaan tertinggi terdapat pada cuaca 1 (Clear, Few clouds, Partly cloudy, Partly cloudy)'
-             'kemudian disusul oleh cuaca 2 (Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist),'
-             'Kemudian disusul oleh cuaca 3 (Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds)yang perbedaannya cukup jauh'
-             'Bahkan pada musim 4 (Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog) tidak ada penyewaan sama sekali. '
-             'dari hasil yang didapatkan diatas, cuaca sangat mempengaruhi jumlah penyewaan sepeda')
+    st.write('Cuaca memberikan pengaruh yang signifikan terhadap penyewaan sepeda, dimana penyewaan tertinggi terdapat pada cuaca 1 Clear, Few clouds, Partly cloudy, Partly cloudy (Cerah, Sedikit awan, Berawan sebagian, Berawan sebagian)'
+             'kemudian disusul oleh cuaca 2 Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist (Kabut + Berawan, Kabut + Awan pecah, Kabut + Sedikit awan, Kabut),'
+             'Kemudian disusul oleh cuaca 3 Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds (Salju Ringan, Hujan Ringan + Badai Petir + Awan berserakan, Hujan Ringan + Awan berserakan) yang perbedaannya cukup jauh. '
+             'Bahkan pada musim 4 Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog (Hujan Lebat + Palet Es + Badai Petir + Kabut, Salju + Kabut) tidak ada penyewaan sama sekali. '
+             'dari hasil yang didapatkan diatas, dapat disimpulkan bahwa cuaca sangat mempengaruhi jumlah penyewaan sepeda')
     
 def pertanyaan_3():
     st.markdown("## Pertanyaan 3")
