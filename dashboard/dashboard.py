@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-data_bike_day = pd.read_csv('day_clean.csv')
-data_bike_hour = pd.read_csv('hour_clean.csv')
+data_bike_day = pd.read_csv('https://raw.githubusercontent.com/tenma33/submission/main/dashboard/day_clean.csv')
+data_bike_hour = pd.read_csv('https://raw.githubusercontent.com/tenma33/submission/main/dashboard/hour_clean.csv')
 
 def pertanyaan_1():
     st.markdown("## Pertanyaan 1")
